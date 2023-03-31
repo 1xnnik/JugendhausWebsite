@@ -130,7 +130,9 @@ a:hover {
     vertical-align: middle;
     width: 100%;
 }
-
+.counter {
+    font-size: 3em;
+}
 
 @media screen and (max-width: 800px) {
     .column {
@@ -150,7 +152,9 @@ a:hover {
         flex: 100%;
         max-width: 100%;
     }
-    
+    .counter{
+        font-size: 2em;
+    }
 
 }
 

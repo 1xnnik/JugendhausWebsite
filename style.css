@@ -61,7 +61,7 @@ body {
 .menu-wrapper2 {
     display: flex;
     flex-direction: column;
-    line-height: 1.2;
+    line-height: 0.8;
     text-align: left;
     padding-inline: 15px;
     margin-block: 10px;
@@ -107,7 +107,7 @@ a:hover {
     }
 
 .textblock {
-    height: 500px;
+    height: 800px;
     width: 1000px;
 }
 .row {
@@ -131,34 +131,15 @@ a:hover {
     width: 100%;
 }
 
-@media screen and (max-width: 1200px) {
-    .column {
-        -ms-flex: 33%;
-        flex: 33%;
-        max-width: 33%;
-    }
-    .textblock {
-        height: 500px;
-        width: 900px;
-    }
 
-}
-@media screen and (max-width: 1000px) {
-    .textblock {
-        height: 500px;
-        width: 700px;
-    }
-}
+
 @media screen and (max-width: 800px) {
     .column {
         -ms-flex: 50%;
         flex: 50%;
         max-width: 50%;
     }
-    .textblock {
-        height: 500px;
-        width: 500px;
-    }
+    
 }
 @media screen and (max-width: 600px) {
     .navbar a {
@@ -170,27 +151,10 @@ a:hover {
         flex: 100%;
         max-width: 100%;
     }
-    .textblock {
-        height: 500px;
-        width: 400px;
-    }
+    
 
 }
-@media screen and (max-width: 480px) {
-    .textblock {
-        height: 500px;
-        width: 300px;
-    }
-}
-@media screen and (max-width: 380px) {
-    .textblock {
-        height: 500px;
-        width: 200px;
-    }
-    h4 {
-        font-size: 12px;
-    }
-}
+
 
 @media screen and (max-width: 325px) {
     .navbar a {
